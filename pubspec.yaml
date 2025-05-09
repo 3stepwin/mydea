@@ -1,0 +1,35 @@
+name: mydea_app
+description: A revolutionary idea to product application with AI assistance.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.0
+  shared_preferences: ^2.0.15
+  provider: ^6.0.3
+  http: ^0.13.5
+  url_launcher: ^6.1.6
+  intl: ^0.17.0
+  uuid: ^3.0.6
+  flutter_svg: ^1.1.5
+  vector_math: ^2.1.4
+  flutter_dotenv: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/partners/
+    - .env
